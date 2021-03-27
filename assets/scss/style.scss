@@ -73,6 +73,15 @@ body{
      }
     
   }
+  @media only screen and (max-width: 1200px) {
+   
+    .font-title{
+        font-size: 3rem !important;
+    }
+    .reg-text{
+        font-size: 1.1rem !important;
+    }
+}
 
   @media only screen and (max-width: 992px) {
    
