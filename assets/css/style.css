@@ -1,0 +1,46 @@
+.navs {
+  background-color: #212529;
+  opacity: 1;
+  border-bottom: 3px solid #008ed6; }
+
+#icon-check .fa-check {
+  font-size: 30px;
+  background-color: aliceblue;
+  color: #008ed6;
+  padding: 4px;
+  border-radius: 4px; }
+
+#registration {
+  background: url("../image/home-reg.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 600px;
+  overflow: hidden; }
+  #registration .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 600px; }
+  #registration .reg-inner {
+    padding-top: 150px;
+    padding-bottom: 50px; }
+  #registration .card {
+    background: transparent; }
+  #registration .card-bg {
+    position: relative;
+    z-index: 1; }
+  #registration .card-bg::before {
+    content: '';
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(21, 107, 47, 0.5);
+    border-radius: 15px;
+    position: absolute;
+    opacity: 0;
+    z-index: -1; }
+  #registration .card-bg:hover.card-bg::before {
+    opacity: 0.8;
+    filter: blur(5px);
+    transition: 1s ease all; }
