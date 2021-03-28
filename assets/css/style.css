@@ -6,6 +6,15 @@ body {
   opacity: 0.7;
   border-bottom: 3px solid #008ed6; }
 
+.nav-link {
+  padding: 5px 10px !important; }
+
+.nav-link.active {
+  color: green; }
+
+.navbar-toggler .navbar-toggler-icon, .navbar-toggler .navbar-toggler-icon::after, .navbar-toggler .navbar-toggler-icon::before {
+  background-color: white !important; }
+
 #icon-check .fa-check {
   font-size: 30px;
   background-color: aliceblue;
@@ -47,6 +56,13 @@ body {
     opacity: 0.8;
     filter: blur(5px);
     transition: 1s ease all; }
+
+#explore-details .fa-check {
+  font-size: 30px;
+  background-color: #333;
+  color: white;
+  padding: 4px;
+  border-radius: 4px; }
 
 @media only screen and (max-width: 1200px) {
   .font-title {
