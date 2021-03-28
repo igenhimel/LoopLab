@@ -6,6 +6,8 @@ body{
     background: $body-back;
 
 }
+
+
 .navs{
     background-color: $bg-color-1;
     opacity: 0.7;
@@ -86,7 +88,7 @@ body{
     
   }
 
-  #explore-details{
+  #explore-details,#share-details{
 
         .fa-check {
         font-size: 30px;
@@ -99,6 +101,44 @@ body{
       
       
   }
+
+  #create-details{
+      background-color: #333;
+
+      .fa-check {
+        font-size: 30px;
+        background-color: white;
+        color: #008ed6; 
+        padding: 4px;
+        border-radius: 4px;
+      }
+  }
+
+  #m-con{
+      background: $body-back;
+  }
+
+  .magic{
+     
+    font-size: 15px!important;
+     
+  }
+  .name,.email,.text{
+      background: transparent;
+      border:0px;
+      border-bottom: 2px solid white;
+      border-radius: 0px;
+  }
+  .name:focus,.email:focus,.text:focus{
+    box-shadow:none!important;
+    background: transparent;
+}
+
+  .transition-modal{
+      transition: 0.6s;
+      font-size: 25px;
+  }
+  
 
 
   @media only screen and (max-width: 1200px) {
